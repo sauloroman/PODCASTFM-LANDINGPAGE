@@ -1,0 +1,97 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.plans {
+      background-color: v.$color-secondary;
+
+      h2 {
+            @include m.headingBorder ( v.$white, v.$color-primary );
+      }
+
+      .description {
+            color: v.$white;
+            margin-bottom: 5rem;
+      }
+
+}
+
+.ours-plans {
+
+      display: flex;
+      flex-direction: column;
+      max-width: 90%;
+      margin: 0 auto;
+
+      @include m.tablet {
+            margin-top: 10rem;
+            max-width: 80rem;
+            flex-direction: row;
+      }
+
+      .plan {
+            flex-grow: 1;
+            background-color: v.$white;
+            padding: 20rem 4rem 4rem 4rem;
+            border-bottom: 1px solid #e1e1e1;
+            transition: all .4s ease-out;
+
+            @include m.tablet {
+                  border-bottom: none;
+
+                  &:hover {
+                        transform: scale(1.1);
+                  }
+            }
+
+
+            .price {
+                  font-size: 2rem;
+                  text-align: center;
+                  font-weight: bold;
+                  text-transform: uppercase;
+                  margin-bottom: 2rem;
+            }
+
+            .list {
+                  li {
+                        text-align: center;
+                        margin-bottom: 2rem;
+
+                        &:last-of-type {
+                              margin-bottom: 0;
+                        }
+                  }
+                  margin-bottom: 3rem;
+            }
+
+            h3 {
+                  margin-top: 1rem 0 2rem 0;
+            }
+            
+            &.initial {
+                  @include m.iconBg( '../../build/img/icono_inicio.svg' )
+            }
+
+            &.bussiness {
+                  background-color: v.$color-primary;
+                  order: -1; 
+
+                  @include m.iconBg( '../../build/img/icono_negocio.svg' );
+
+                  @include m.tablet {
+                        order: unset;
+                        margin: -5rem 0;
+                        border-radius: 2rem;
+                        background-position: 50% 10rem;
+                        padding-top: 25rem;
+                        z-index: 100;
+                  }
+
+            }
+
+            &.pro {
+                  @include m.iconBg( '../../build/img/icono_pro.svg' );
+            }
+      }
+
+}

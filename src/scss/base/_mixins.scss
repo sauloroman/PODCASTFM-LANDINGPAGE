@@ -1,0 +1,86 @@
+@use "variables" as v;
+
+/** Media Queries **/
+@mixin phone {
+  @media (min-width: v.$phone) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: v.$tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: v.$desktop) {
+    @content;
+  }
+}
+
+@mixin button($color, $text) {
+  background-color: $color;
+  font-size: 1.8rem;
+  padding: 1.2rem 4rem;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: $text;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+    background-color: darken($color, 10);
+  }
+
+  @include tablet {
+    width: auto;
+    display: inline-block;
+  }
+}
+
+@mixin grid($cols, $gap) {
+  display: grid;
+  gap: $gap;
+  grid-template-columns: repeat($cols, 1fr);
+}
+
+@mixin bgImage($url, $colorGradient) {
+  background-image: linear-gradient($colorGradient 0%, $colorGradient 100%),
+    url($url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 30%;
+}
+
+@mixin headingBorder($colorText, $colorLine) {
+  font-size: 2.5rem;
+  display: inline-block;
+  margin-top: 5rem;
+  color: $colorText;
+
+  @include tablet {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+
+  &::after {
+    content: "";
+    background-color: $colorLine;
+    height: 1rem;
+    width: calc(100% + 1rem);
+    display: block;
+    margin: -1.4rem 0 0 0;
+  }
+}
+
+@mixin iconBg ( $url ) {
+    background-image: url( $url );
+    background-repeat: no-repeat;
+    background-position: 50% 5rem;
+    background-size: 10rem;
+}

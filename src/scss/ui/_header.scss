@@ -1,0 +1,45 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.site-header {
+
+      @include m.bgImage('../../build/img/header.jpg', v.$color-secondary-2);
+      padding: 5rem 0;
+
+      .logo {
+            max-width: 20rem;
+            margin: 0 auto;
+
+            @include m.tablet {
+                  margin: 0;
+            }
+
+      }
+
+      .content-header {
+            padding: 10rem 0;
+
+            @include m.tablet {
+                  padding: 15rem 0;
+            }
+
+            .heading-header {
+                  color: v.$white;
+                  font-size: 3rem;
+
+                  @include m.tablet {
+                        font-size: 5rem;
+                        max-width: 50%;
+                  }
+
+                  @include m.desktop {
+                        font-size: 6rem;
+                        max-width: 40%;
+                  }
+
+            }
+
+      }
+
+
+}

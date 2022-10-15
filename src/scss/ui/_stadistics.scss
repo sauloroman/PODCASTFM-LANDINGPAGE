@@ -1,0 +1,19 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.stadistics {
+      h2 {
+            @include m.headingBorder( v.$color-secondary, v.$color-primary );
+      }
+
+      p {
+            margin-bottom: 5rem;
+      }
+
+      .image {
+            @include m.desktop {
+                  width: 70%;
+                  margin: 0 auto;
+            }
+      }
+}

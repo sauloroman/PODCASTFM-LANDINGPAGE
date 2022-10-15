@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/main.css">
+    <link rel="icon" href="./build/img/logo.svg" type="image/svg"/>
+  
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-grid">
+            <div class="logo">
+                <img src="./build/img/logo.svg" alt="Podcast logo" />
+            </div>
+
+            <div class="content-header">
+                <h1 class="heading-header">Tu Plataforma para publicar tus Podcast</h1>
+                <a href="#" class="button-primary">Crear cuenta</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container section">
+        <div class="create-grid">
+            <div class="image">
+                <img src="./build/img/imagen_podcast.svg" alt="Podcast" />
+            </div>
+            <div class="content">
+                <h2>Crea tu Podcast</h2>
+                <p>Nosotros lo distribuimos a las plataformas más populares como Google Podcast, Spotify, Apple Podcast y Youtube.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section beneficts">
+        <div class="grid-beneficts container">
+            <div class="content-beneficts">
+
+                <h2>Llega a miles y gana dinero</h2>
+                <p>Los podcast se han convertido en un medio de entretenimiento que cada día gana más seguidores, con temas variados puedes crear tu propio podcast, ser escuchada(o) por miles de personas y convertir tu pasión en un negocio.</p>
+
+            </div>
+
+            <picture class="image">
+                <source srcset='./build/img/podcast_cover.webp' type='image/webp' />
+                <source srcset='./build/img/podcast_cover.avif' type='image/avif' />
+                <img
+                    alt="Cover of podcast" 
+                    src='./build/img/podcast_cover.png' 
+                    type='image/png' 
+                    loading='lazy' 
+                />
+            </picture>
+
+        </div>
+    </section>
+
+    <section class="stadistics section container">
+        <h2>Estadísticas detalladas</h2>
+        <p>Mira el progreso de tu Podcast semana a semana y perfecciona tu contenido para que hagas relación con la gente que te está escuchando.</p>
+
+        <img 
+            class="image"
+            src="./build/img/grafica.svg" 
+            alt="Grafica de estadísticas" />
+    </section>
+
+    <main class="section plans">
+        <div class="container">
+            <h2>Planes</h2>
+            <p class="description">Inicia gratis, crece tu plan cuando sea necesario y desbloquea los beneficios completos.</p>
+
+            <div class="ours-plans">
+                <div class="plan initial">
+                    <h3>Inicio</h3>
+                    <p class="price">$2.99 Mes</p>
+                    
+                    <ul class="list">
+                        <li>30 episodios</li>
+                        <li>Estadísticas</li>
+                        <li>App para grabar</li>
+                    </ul>
+
+                    <a href="#" class="button-plan">Inscribirme</a>
+
+                </div> <!-- .plan -->
+
+                <div class="plan bussiness">
+                    <h3>Negocio</h3>
+                    <p class="price">$6.99 Mes</p>
+                    
+                    <ul class="list">
+                        <li>Episodios ilimitados</li>
+                        <li>Todas las plataformas</li>
+                        <li>Estadísticas</li>
+                        <li>App para grabar</li>
+                        <li>Podcast Pagados</li>
+                    </ul>
+
+                    <a href="#" class="button-plan">Inscribirme</a>
+
+                </div> <!-- .plan -->
+
+                <div class="plan pro">
+                    <h3>PRO</h3>
+                    <p class="price">$4.99 Mes</p>
+                    
+                    <ul class="list">
+                        <li>50 episodios</li>
+                        <li>Todas las plataformas</li>
+                        <li>Estadísticas</li>
+                        <li>App para grabar</li>
+                    </ul>
+
+                    <a href="#" class="button-plan">Inscribirme</a>
+
+                </div> <!-- .plan -->
+            </div>
+
+
+        </div>
+    </main>
+
+    <section class="container section testimonials">
+        <picture class="image">
+            <source srcset='./build/img/app.webp' type='image/webp' />
+            <source srcset='./build/img/app.avif' type='image/avif' />
+            <img 
+                alt="testimonials"
+                src='./build/img/app.jpg' 
+                type='image/jpg' 
+                loading='lazy' 
+            />
+        </picture>
+
+        <div class="content">
+            <h2>Testimoniales</h2>
+
+            <div class="testimonial">
+                <p>Disfruto mucho poder encontrar facilmente mis Podcasts favoritos en un mismo sitio.</p>
+            </div>
+
+            <div class="testimonial">
+                <p>Desde que comencé a distribuir mis Podcasts con la plataforma mucha gente me ha comenzado a seguir. Sin duda, la mejor opición.</p>
+            </div>
+
+            <div class="testimonial">
+                <p>Las estadísticas ayudan mucho a seccionar más mi contenido y saber como mejorar con el avance de los episodios.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-widget">
+                <img src="./build/img/logo.svg" alt="Logo Podcast FM" class="logo">
+            </div>
+
+            <div class="footer-widget">
+                <h3>Soluciones</h3>
+            
+                <nav>
+                    <a href="#">Soluciones</a>
+                    <a href="#">Gráficas</a>
+                    <a href="#">Distribución</a>
+                </nav>
+                
+            </div>
+
+            <div class="footer-widget">
+                <h3>Soporte</h3>
+            
+                <nav>
+                    <a href="#">Documentación</a>
+                    <a href="#">Precios</a>
+                    <a href="#">API</a>
+                </nav>
+                
+            </div>
+
+            <div class="footer-widget">
+                <h3>Podcast FM</h3>
+            
+                <nav>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Clientes</a>
+                </nav>
+                
+            </div>
+
+        </div>
+
+        <div class="copyright">Podcast FM &mdash; Todos los derechos reservados</div>
+
+    </footer>
+
+</body>
+</html>
