@@ -50,8 +50,8 @@ npm install
 gulp compile 
 ```
 
-This is a gulp tasks to compile scss code to css code.
-
+<p>This is a gulp tasks to compile scss code to css code.</p>
+<br>
 
 <h2>Sections</h2>
 <br>
@@ -72,13 +72,13 @@ This is a gulp tasks to compile scss code to css code.
 <h3>Phone size</h3>
 <br>
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
-<img src="./assets/img/hero-m.jpeg" alt="Hero section" width=400 />
-<img src="./assets/img/create-m.jpeg" alt="Create section" width=400 />
-<img src="./assets/img/money-m.jpeg" alt="Earn money section" width=400 />
-<img src="./assets/img/stadistics-m.jpeg" alt="Stadistics section" width=400 />
-<img src="./assets/img/plans-m.jpeg" alt="Plans section" width=400 />
-<img src="./assets/img/testimonials-m.jpeg" alt="Testimonials section" width=400 />
-<img src="./assets/img/footer-m.jpeg" alt="Footer section" width=400 />
+<img src="./assets/img/hero-m.jpeg" alt="Hero section" width=200 />
+<img src="./assets/img/create-m.jpeg" alt="Create section" width=200 />
+<img src="./assets/img/money-m.jpeg" alt="Earn money section" width=200 />
+<img src="./assets/img/stadistics-m.jpeg" alt="Stadistics section" width=200 />
+<img src="./assets/img/plans-m.jpeg" alt="Plans section" width=200 />
+<img src="./assets/img/testimonials-m.jpeg" alt="Testimonials section" width=200 />
+<img src="./assets/img/footer-m.jpeg" alt="Footer section" width=200 />
 </div>
 <br>
 
