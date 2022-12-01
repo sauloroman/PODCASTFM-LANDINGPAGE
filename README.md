@@ -11,10 +11,8 @@
 ```
 https://podcastfmsrsn.netlify.app/
 ```
-<br>
 
 <h2>Technologies</h2>
-<br>
 
 <p>Different techonologies were used to developed this web page. However, the most important ones are: </p>
 
@@ -24,7 +22,6 @@ https://podcastfmsrsn.netlify.app/
 <li>SASS</li>
 <li>Gulp</li>
 </ul>
-<br>
 
 <h2>Development Dependencies</h2>
 <ul>
@@ -55,7 +52,6 @@ gulp compile
 ```
 
 <p>This is a gulp tasks to compile scss code to css code.</p>
-<br>
 
 ## UI Considerations 
 
