@@ -1,7 +1,6 @@
-<h1>PodcastFM &mdash; Landing Page</h1>
+<h1>PodcastFM &mdash; Landing Page 🎙</h1>
 
 <img src="./design/PodcastFM-coverpage.png" alt="PodcastFM-coverpage" width="700"/>
-<br />
 <br />
 
 <p>The current project is called "Podcast FM". This project is a landing page to promote a platform where you can distribute your podcasts. It has seven sections and it's completely responsive since it follows the mobile first principle. Different CSS methodologies were followed and semantic content is strongly stablished.</p>
