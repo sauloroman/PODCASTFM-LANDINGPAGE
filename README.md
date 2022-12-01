@@ -1,5 +1,9 @@
 <h1>PodcastFM &mdash; Landing Page</h1>
 
+<img src="./design/PodcastFM-coverpage.png" alt="PodcastFM-coverpage" width="700"/>
+<br />
+<br />
+
 <p>The current project is called "Podcast FM". This project is a landing page to promote a platform where you can distribute your podcasts. It has seven sections and it's completely responsive since it follows the mobile first principle. Different CSS methodologies were followed and semantic content is strongly stablished.</p>
 
 <p>If you want to check it out, please enter in: </p>
@@ -53,32 +57,18 @@ gulp compile
 <p>This is a gulp tasks to compile scss code to css code.</p>
 <br>
 
-<h2>Sections</h2>
-<br>
+## UI Considerations 
 
-<h3>Desktop size</h3>
-<br>
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
-<img src="./assets/img/hero.png" alt="Hero section" width=400 />
-<img src="./assets/img/create.png" alt="Create section" width=400 />
-<img src="./assets/img/money.png" alt="Earn money section" width=400 />
-<img src="./assets/img/stadistics.png" alt="Stadistics section" width=400 />
-<img src="./assets/img/plans.png" alt="Plans section" width=400 />
-<img src="./assets/img/testimonials.png" alt="Testimonials section" width=400 />
-<img src="./assets/img/footer.png" alt="Footer section" width=400 />
-</div>
-<br>
+Colors: 
+  * Primary: #84d9bc
+  * Secondary: #313c4e
+  * Black: #000000
+  * White: #ffffff
 
-<h3>Phone size</h3>
-<br>
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
-<img src="./assets/img/hero-m.jpeg" alt="Hero section" width=200 />
-<img src="./assets/img/create-m.jpeg" alt="Create section" width=200 />
-<img src="./assets/img/money-m.jpeg" alt="Earn money section" width=200 />
-<img src="./assets/img/stadistics-m.jpeg" alt="Stadistics section" width=200 />
-<img src="./assets/img/plans-m.jpeg" alt="Plans section" width=200 />
-<img src="./assets/img/testimonials-m.jpeg" alt="Testimonials section" width=200 />
-<img src="./assets/img/footer-m.jpeg" alt="Footer section" width=200 />
-</div>
-<br>
+Breaking Points:
 
+This projects uses "mobile first" principle to make resposibe all the content of it. 
+
+  * Phone: 480px
+  * Tablet: 768px
+  * Phone: 1024px
